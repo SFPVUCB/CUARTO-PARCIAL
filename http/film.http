@@ -1,0 +1,25 @@
+### BUSQUEDA DE PELICULAS POR ID
+GET http://localhost:8080/film/1
+### BUSQUEDA DE PELICULAS DEL MISMO IDIOMA
+GET http://localhost:8080/film2/2
+### TODOS LAS PELICULAS
+GET http://localhost:8080/film3
+### BUSQUEDA DE PELICULAS POR TITULO
+GET http://localhost:8080/film5/conjuro
+###
+POST http://localhost:8080/film4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "language_id": 1,
+  "title": 4,
+  "description": "Prueba",
+  "releaseyear": 2022,
+  "rentalduration": 4,
+  "rentalamount": 60.0,
+  "duration": 120,
+  "rating": 5,
+  "image": "prueba.jpg"
+
+}

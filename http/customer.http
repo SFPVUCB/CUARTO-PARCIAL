@@ -1,0 +1,23 @@
+### BUSQUEDA POR 1 ID
+GET http://localhost:8080/customer1/1
+### BUSQUEDA PARA CLIENTES POR STATUS
+ GET http://localhost:8080/customer2/true
+### TODOS LOS CLIENTES
+GET http://localhost:8080/customer3
+###
+POST http://localhost:8080/customer4
+Content-Type: application/json
+Accept: application/json
+
+{
+  "address_id": 1,
+  "name": "Sergio",
+  "lastname": "Prudencio",
+  "phone": 60667049,
+  "mail": "sergexpruve@gmail.com",
+  "status": true,
+  "username": "Sergito",
+  "password": "********",
+  "image": "sergio.jpg"
+
+}

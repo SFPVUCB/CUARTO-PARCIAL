@@ -1,0 +1,4 @@
+### BUSQUEDA DE PELICULAS POR ID
+GET http://localhost:8080/filmcategory1/1
+### BUSQUEDA DE PELICULAS POR ID
+GET http://localhost:8080/filmcategory2
